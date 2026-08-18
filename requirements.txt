@@ -1,0 +1,13 @@
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+openpyxl>=3.1
+
+# Only needed if you run reproduction/generate_outputs.py to generate NEW
+# model outputs (optional step):
+torch>=2.0
+transformers>=4.40
+huggingface_hub>=0.23
+openai>=1.0
+together>=1.0
+tqdm>=4.66
